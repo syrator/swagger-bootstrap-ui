@@ -1,18 +1,8 @@
 # SwaggerBootstrapUi
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.xiaoymin/swagger-bootstrap-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.xiaoymin/swagger-bootstrap-ui)
-
 ## 项目说明
 
 `swagger-bootstrap-ui`是`springfox-swagger`的增强UI实现，为Java开发者在使用Swagger的时候，能拥有一份简洁、强大的接口文档体验
-
-**在 线 效 果：**[http://swagger-bootstrap-ui.xiaominfo.com/doc.html](http://swagger-bootstrap-ui.xiaominfo.com/doc.html)
-
-**项 目 Demo:**[https://gitee.com/xiaoym/swagger-bootstrap-ui-demo](https://gitee.com/xiaoym/swagger-bootstrap-ui-demo)
-
-**QQ 交流群：**<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=16b81902c23fbca82780fa107da1b6612e2ee44a05c4103c9176ad9d61c2f6bf"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="XM开源技术交流群" title="XM开源技术交流群"></a> 608374991
-
-**在线文档**：[http://doc.xiaominfo.com/](http://doc.xiaominfo.com/)
 
 ### 核心功能
 
@@ -67,9 +57,11 @@
 
 然后引入SwaggerBootstrapUi的jar包
 
+lastVersion 当前版本号为 1.9.5
+
 ```xml
 <dependency>
-  <groupId>com.github.xiaoymin</groupId>
+  <groupId>com.github.syrator</groupId>
   <artifactId>swagger-bootstrap-ui</artifactId>
   <version>${lastVersion}</version>
 </dependency>
@@ -184,27 +176,6 @@ public class SwaggerBootstrapUiDemoApplication  implements WebMvcConfigurer{
 </servlet-mapping>
 
 ```
-
-## UI效果图
-
-![接口说明](static/des.png)
-
-![接口调试](static/debug.png)
-
-![个性化设置](static/settings.png)
-
-![接口离线文档](static/markdown.png)
-
-![SwaggerModels](static/models.png)
-
-## 捐赠
-
-无论捐赠金额多少都足够表达您这份心意,非常感谢!!!谢谢~~~:)
-
-<figure class="half">
-    <img src="static/pay_ali.jpg" width="300" style="">
-    <img src="static/pay_wechat.jpg" width="300">
-</figure>
 
 
 
