@@ -31,14 +31,14 @@
         <url>git@git.oschina.net:xiaoym/swagger-bootstrap-ui.git</url>
     </scm>
     <distributionManagement>
-        <snapshotRepository>
-            <id>oss</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
         <repository>
-            <id>oss</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/80689-release-2Q0Anc/</url>
         </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/80689-snapshot-b4x10C/</url>
+        </snapshotRepository>
     </distributionManagement>
     <dependencies>
 
@@ -194,14 +194,14 @@
                 </plugins>
             </build>
             <distributionManagement>
-                <snapshotRepository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-                </snapshotRepository>
                 <repository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                    <id>rdc-releases</id>
+                    <url>https://repo.rdc.aliyun.com/repository/80689-release-2Q0Anc/</url>
                 </repository>
+                <snapshotRepository>
+                    <id>rdc-snapshots</id>
+                    <url>https://repo.rdc.aliyun.com/repository/80689-snapshot-b4x10C/</url>
+                </snapshotRepository>
             </distributionManagement>
         </profile>
     </profiles>
